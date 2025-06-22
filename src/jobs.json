@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "salary": "$60,000 - $80,000",
+      "description": "Join our growing frontend team to create interactive, accessible, and performance-optimized web applications using React.js and Tailwind CSS. Collaborate with designers and backend engineers to ship features quickly.",
+      "location": "Remote"
+    },
+    {
+      "id": 2,
+      "title": "Full Stack Engineer",
+      "salary": "$75,000 - $95,000",
+      "description": "We’re looking for a Full Stack Engineer to develop modern web applications using Node.js, React, and PostgreSQL. You'll be responsible for building new features and maintaining critical systems.",
+      "location": "New York, NY"
+    },
+    {
+      "id": 3,
+      "title": "UI/UX Designer",
+      "salary": "$50,000 - $70,000",
+      "description": "As a UI/UX designer, you’ll be responsible for creating intuitive, user-centered designs for both desktop and mobile platforms. Experience with Figma and design systems is a must.",
+      "location": "San Francisco, CA"
+    },
+    {
+      "id": 4,
+      "title": "Backend Developer",
+      "salary": "$80,000 - $100,000",
+      "description": "We're looking for a backend developer with experience in building scalable APIs and working with microservices. Proficiency in Python or Node.js is required, along with cloud experience.",
+      "location": "Austin, TX"
+    },
+    {
+      "id": 5,
+      "title": "DevOps Engineer",
+      "salary": "$90,000 - $110,000",
+      "description": "Looking for a DevOps Engineer to streamline our CI/CD pipelines, manage Kubernetes clusters, and automate deployments across staging and production environments.",
+      "location": "Remote"
+    },
+    {
+      "id": 6,
+      "title": "Product Manager",
+      "salary": "$85,000 - $105,000",
+      "description": "As a Product Manager, you will define product roadmaps, coordinate with cross-functional teams, and ensure timely delivery of features. Strong communication skills and a user-focused mindset are essential.",
+      "location": "Seattle, WA"
+    },
+    {
+      "id": 7,
+      "title": "Mobile App Developer",
+      "salary": "$70,000 - $90,000",
+      "description": "We are hiring a mobile app developer to work on both Android and iOS platforms using Flutter. You will contribute to new feature development and improve existing performance and UX.",
+      "location": "Chicago, IL"
+    },
+    {
+      "id": 8,
+      "title": "QA Engineer",
+      "salary": "$55,000 - $75,000",
+      "description": "We need a QA Engineer to design test cases, automate regression suites, and ensure quality across our frontend and backend applications. Experience with Selenium or Cypress is a bonus.",
+      "location": "Denver, CO"
+    }
+  ]
+  
