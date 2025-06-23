@@ -1,6 +1,6 @@
 import React from "react";
 import { BsSearch } from "react-icons/bs";
-const Home = () => {
+const Home = ({ searchQuery, handleChange }) => {
   return (
     <nav
       className="flex justify-between items-center px-6 py-4 border-white border-b-2"
@@ -22,6 +22,8 @@ const Home = () => {
           name="search"
           placeholder="Search jobs..."
           className="px-3 py-1 rounded bg-[#F4F6F8] text-[#2D3436] outline-none"
+          value={searchQuery}
+          onChange={(e) => handleChange(e.target.value)}
         />
 
         <button>
