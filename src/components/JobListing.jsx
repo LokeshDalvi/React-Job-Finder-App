@@ -14,6 +14,15 @@ const JobListing = ({ searchQuery }) => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {filteredJobs.length === 0 && (
+          <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100">
+            <div className="p-6">
+              <h2 className="text-2xl font-bold text-gray-800">
+                No matching jobs found
+              </h2>
+            </div>
+          </div>
+        )}
         {filteredJobs.map((job) => (
           <div
             key={job.id}
@@ -29,7 +38,7 @@ const JobListing = ({ searchQuery }) => {
                 <h2 className="text-xl font-bold text-gray-800">{job.title}</h2>
               </div>
 
-              <p className="text-gray-600 mb-4 line-clamp-2">
+              <p className="text-gray-600 mb-4 line-clamp-3">
                 {job.description}
               </p>
 
