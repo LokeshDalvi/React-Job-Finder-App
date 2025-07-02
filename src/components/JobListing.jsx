@@ -38,7 +38,7 @@ const JobListing = ({ searchQuery }) => {
                 <h2 className="text-xl font-bold text-gray-800">{job.title}</h2>
               </div>
 
-              <p className="text-gray-600 mb-4 line-clamp-3">
+              <p className="text-gray-600 mb-4 line-clamp-2">
                 {job.description}
               </p>
 
