@@ -2,6 +2,7 @@ import React from "react";
 import jobs from "../jobs.json";
 
 const JobListing = ({ searchQuery }) => {
+  
   const filteredJobs = jobs.filter((job) => {
     const query = searchQuery.toLowerCase();
 
